@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  padding: 0 2rem;
+  color: #FFFFFF;
+}
+
+.header-troll {
+  display: flex;
+  align-items: center;
+}
+
+.header-troll img {
+  width: 31px;
+  height: 26px;
+}
+
+.header-troll h3 {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+}
+
+.header p {
+    font-size: 12px;
+}
+

@@ -1,0 +1,35 @@
+.meme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 550px;
+}
+
+.inputs {
+  display: flex;
+  gap: 1rem;
+}
+.inputs input {
+  padding: 0.6rem 5.8rem 0.6rem 0.5rem;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+}
+
+.meme button {
+  margin: 1rem;
+  padding: 0.8rem 10rem;
+  width: 100%;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.meme img {
+    max-width: 100%;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
