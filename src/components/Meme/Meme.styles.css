@@ -24,12 +24,42 @@
   background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
   border: none;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .meme img {
-    max-width: 100%;
-    margin-top: 1rem;
-    border: none;
-    border-radius: 0.5rem;
+  max-width: 100%;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 25px;
+}
+
+.top {
+  top: 25px;
 }
